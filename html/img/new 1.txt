@@ -1,7 +1,0 @@
-.arzu-site-header {
-text-align:center;
-color: blue;
-font-size: 20px;
-background-color: black;
-
-}
