@@ -18,12 +18,22 @@
  <body>
  
  <form>
+
+ <fieldset> 
+	 <legend> <b>Personal Information:</b></legend>
+
  <ul>
  <li>Name: <input type="text" name="name"> <br><br> </li>
  <li>Email: <input type="email" name="email"> <br><br> </li>
-<li> Skype ID: <input type="text" name="skypeid"> <br><br> </li>
- <li>Education/Degree: <input type="text" name="degree"> <br><br> </li> 
- 
+ <li> Skype ID: <input type="text" name="skypeid"> <br><br> </li>
+ <li>Education/Degree: <input type="text" name="degree"> <br> </li> 
+ </ul>
+
+</fieldset> <br>
+
+<fieldset>
+	<legend><b>Freelancing Information:</b></legend>
+	<ul>
  <li>Which platfroms do you use for freelancing? <br> </li>
  <input type="checkbox" name="platform"> Upwork
  <input type="checkbox" name="platform"> Freelancer
@@ -41,9 +51,11 @@
  <input type="radio" name="corearea"> Developer
  <input type="radio" name="corearea"> Designer
  <input type="radio" name="corearea"> Software Developer
- <input type="radio" name="corearea"> Other? <input type="text"> <br> <br> 
- 
- 
+ <input type="radio" name="corearea"> Other? <input type="text"> <br> 
+</ul>
+</fieldset> <br>
+
+<ul>
  <li>How do you rate yourself at English? <br> </li>
  <input type="radio" name="level"> Pre-intermediate
  <input type="radio" name="level">Intermediate
@@ -58,13 +70,15 @@
  </select> <br> <br>
  
  <li>Do you want to say something about this website?<br></li>
+</ul>
  <textarea name="comment" cols="71" rows="5"></textarea> <br> <br>
  
  
  <input type="submit" value="Submit">
- <input type="reset"
+ <input type="reset" value="Reset">
+
  
- 
+
  </form>
  
  <hr>
